@@ -1,0 +1,40 @@
+#about-us-main {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: space-between;
+
+    h1, h2 {
+        width: 100%;
+    }
+
+    h2 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    div {
+        width: 48%;
+        border: 1px solid orange;
+        border-radius: 5px;
+        padding: 1rem;
+        box-sizing: border-box;
+        
+        .dev-name {
+            font-weight: bold;
+            padding-right: 1rem;
+        }
+
+    }
+    @media(@mobile) {
+        div {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            margin-top: 1rem;
+        }
+    }
+}
