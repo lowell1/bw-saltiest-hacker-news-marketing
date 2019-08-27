@@ -129,8 +129,13 @@ table {
 html {
   font-size: 62.5%;
 }
+* {
+  color: white;
+}
 h1 {
   font-size: 3.4rem;
+  color: orange;
+  text-align: center;
 }
 h2 {
   font-size: 3rem;
@@ -147,9 +152,14 @@ h5 {
 h6 {
   font-size: 1.4rem;
 }
+body {
+  background-color: black;
+}
 nav {
-  border-bottom: 1px dashed black;
+  background-color: green;
   width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
 }
 nav .container {
   display: flex;
@@ -157,32 +167,26 @@ nav .container {
   align-items: center;
   justify-content: space-between;
   width: 75%;
+  margin: 0 auto;
 }
-nav .container ul {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 40%;
+@media (max-width: 500px) {
+  nav .container :not(:last-child) {
+    padding-bottom: 1rem;
+  }
 }
-nav .container ul a {
+nav .container a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 1.6rem;
 }
 @media (max-width: 500px) {
-  nav .container {
-    justify-content: space-around;
-  }
-  nav .container h1 {
+  nav .container a {
+    width: 100%;
     text-align: center;
   }
-  nav .container ul {
-    width: 100%;
-    justify-content: space-around;
+  nav .container a :not(:last-child) {
+    padding-bottom: 5rem;
   }
-}
-body {
-  background-color: black;
 }
 #landing-main {
   position: fixed;

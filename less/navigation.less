@@ -1,40 +1,37 @@
 // Navigation Styles here
 
 nav {
-    border-bottom: 1px dashed black;
+    background-color: green;
     width: 100%;
-
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    
     .container {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-
         width: 75%;
-    
-        ul {
-            display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            width: 40%;
-    
-            a {
-                text-decoration: none;
-                color: black;
-                font-size: 1.6rem;
+        margin: 0 auto;
+
+        @media(@mobile) {
+            :not(:last-child) {
+                padding-bottom: 1rem;
             }
         }
-    
-        @media(@mobile) {
-            justify-content: space-around;
-    
-            h1 {
-                text-align: center;
-            }
-    
-            ul {
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.6rem;
+
+            @media(@mobile) {
                 width: 100%;
-                justify-content: space-around;
+                text-align: center;
+            
+                :not(:last-child) {
+                    padding-bottom: 5rem;
+                }
             }
         }
     }
