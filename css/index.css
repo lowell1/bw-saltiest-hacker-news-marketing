@@ -159,14 +159,14 @@ nav {
   background-color: green;
   width: 100%;
   padding: 1rem 0;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 nav .container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  width: 75%;
+  width: 45%;
   margin: 0 auto;
 }
 @media (max-width: 500px) {
@@ -188,34 +188,56 @@ nav .container a {
     padding-bottom: 5rem;
   }
 }
-#landing-main {
-  position: fixed;
+#contact-us-main h1 {
+  margin: 3rem 0;
+}
+#contact-us-main form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+}
+#contact-us-main form input,
+#contact-us-main form textarea {
+  margin-bottom: 2rem;
+  color: black;
+}
+#contact-us-main form #submit-button {
+  background-color: lightgrey;
+  padding: 1rem 2rem;
+  display: inline-block;
+  border-radius: 0.7rem;
+  font-size: 1.7rem;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  margin: 0 auto;
+}
+#index-main {
   background-color: red;
   border: 2px solid orange;
   width: 33%;
   padding: 2rem;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
+  margin: 10rem auto 0 auto;
 }
-#landing-main span {
+#index-main span {
   font-weight: bold;
 }
-#landing-main a {
+#index-main a {
   background-color: orange;
   padding: 1rem 2rem;
   display: inline-block;
-  border-radius: 1rem;
-  font-size: 2rem;
+  border-radius: 0.7rem;
+  font-size: 1.7rem;
   text-align: center;
   color: black;
   text-decoration: none;
 }
-#landing-main h1,
-#landing-main p {
+#index-main h1,
+#index-main p {
   margin-bottom: 1rem;
 }
-#landing-main p {
+#index-main p {
   font-size: 1.5rem;
 }
