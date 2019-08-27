@@ -1,0 +1,41 @@
+// Navigation Styles here
+
+nav {
+    border-bottom: 1px dashed black;
+    width: 100%;
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 75%;
+    
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            width: 40%;
+    
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 1.6rem;
+            }
+        }
+    
+        @media(@mobile) {
+            justify-content: space-around;
+    
+            h1 {
+                text-align: center;
+            }
+    
+            ul {
+                width: 100%;
+                justify-content: space-around;
+            }
+        }
+    }
+}
