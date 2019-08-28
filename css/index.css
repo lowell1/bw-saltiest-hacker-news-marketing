@@ -131,6 +131,7 @@ html {
 }
 * {
   color: white;
+  cursor: none;
 }
 h1 {
   font-size: 3.4rem;
@@ -158,8 +159,8 @@ body {
 .salt-trail {
   position: fixed;
   pointer-events: none;
-  width: 15px;
-  left: -20px;
+  width: 1.5%;
+  left: -100px;
 }
 nav {
   background-color: green;
@@ -259,7 +260,6 @@ nav .container a {
   width: 100%;
 }
 #about-us-main h2 {
-  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 #about-us-main div {
@@ -268,10 +268,12 @@ nav .container a {
   border-radius: 5px;
   padding: 1rem;
   box-sizing: border-box;
+  margin-bottom: 2rem;
 }
-#about-us-main div .dev-name {
+#about-us-main div .dev-info {
   font-weight: bold;
   padding-right: 1rem;
+  content: ":";
 }
 @media (max-width: 500px) {
   #about-us-main div {
@@ -279,6 +281,6 @@ nav .container a {
     margin-bottom: 2rem;
   }
   #about-us-main h2 {
-    margin-top: 1rem;
+    text-align: center;
   }
 }

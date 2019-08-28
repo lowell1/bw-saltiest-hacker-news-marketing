@@ -7,7 +7,7 @@ let trail_images = document.getElementsByClassName("salt-trail");
 trail_images[0].style.visibility = "visible";
 
 document.addEventListener("mousemove", function(event) {
-    if(mouse_event_counter == 25) {
+    if(mouse_event_counter == 5) {
         mouse_event_counter = 1;
 
         trail_images[current_trail_images_index].style.left = event.clientX - 5 + "px";
