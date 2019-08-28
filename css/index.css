@@ -272,6 +272,7 @@ nav .container a {
 }
 #about-us-main div .dev-name {
   font-weight: bold;
+  font-size: 1.5rem;
   padding-right: 1rem;
 }
 @media (max-width: 500px) {
