@@ -155,6 +155,12 @@ h6 {
 body {
   background-color: black;
 }
+.salt-trail {
+  visibility: hidden;
+  position: fixed;
+  pointer-events: none;
+  width: 15px;
+}
 nav {
   background-color: green;
   width: 100%;
