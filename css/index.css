@@ -156,10 +156,10 @@ body {
   background-color: black;
 }
 .salt-trail {
-  visibility: hidden;
   position: fixed;
   pointer-events: none;
   width: 15px;
+  left: -20px;
 }
 nav {
   background-color: green;
