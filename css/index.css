@@ -276,6 +276,9 @@ nav .container a {
   padding-right: 1rem;
 }
 @media (max-width: 500px) {
+  #about-us-main {
+    width: 75%;
+  }
   #about-us-main div {
     width: 100%;
     margin-bottom: 2rem;
