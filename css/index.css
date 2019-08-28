@@ -1,0 +1,286 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  font-size: 62.5%;
+}
+* {
+  color: white;
+  cursor: none;
+}
+h1 {
+  font-size: 3.4rem;
+  color: orange;
+  text-align: center;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.6rem;
+}
+h4 {
+  font-size: 2.2rem;
+}
+h5 {
+  font-size: 1.8rem;
+}
+h6 {
+  font-size: 1.4rem;
+}
+body {
+  background-color: black;
+}
+.salt-trail {
+  position: fixed;
+  pointer-events: none;
+  width: 1.5%;
+  left: -100px;
+}
+nav {
+  background-color: green;
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 3rem;
+}
+nav .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  nav .container :not(:last-child) {
+    padding-bottom: 1rem;
+  }
+}
+nav .container a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+}
+@media (max-width: 500px) {
+  nav .container a {
+    width: 100%;
+    text-align: center;
+  }
+  nav .container a :not(:last-child) {
+    padding-bottom: 5rem;
+  }
+}
+#contact-us-main h1 {
+  margin: 3rem 0;
+}
+#contact-us-main form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+}
+#contact-us-main form input,
+#contact-us-main form textarea {
+  margin-bottom: 2rem;
+  color: black;
+}
+#contact-us-main form #submit-button {
+  background-color: lightgrey;
+  padding: 1rem 2rem;
+  display: inline-block;
+  border-radius: 0.7rem;
+  font-size: 1.7rem;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  margin: 0 auto;
+}
+#index-main {
+  background-color: red;
+  border: 2px solid orange;
+  width: 33%;
+  padding: 2rem;
+  text-align: center;
+  margin: 10rem auto 0 auto;
+}
+#index-main span {
+  font-weight: bold;
+}
+#index-main a {
+  background-color: orange;
+  padding: 1rem 2rem;
+  display: inline-block;
+  border-radius: 0.7rem;
+  font-size: 1.7rem;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+#index-main h1,
+#index-main p {
+  margin-bottom: 1rem;
+}
+#index-main p {
+  font-size: 1.5rem;
+}
+#about-us-main {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: space-between;
+}
+#about-us-main h1,
+#about-us-main h2 {
+  width: 100%;
+}
+#about-us-main h2 {
+  margin-bottom: 1rem;
+}
+#about-us-main div {
+  width: 48%;
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+}
+#about-us-main div .dev-info {
+  font-weight: bold;
+  padding-right: 1rem;
+  content: ":";
+}
+@media (max-width: 500px) {
+  #about-us-main div {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  #about-us-main h2 {
+    text-align: center;
+  }
+}
