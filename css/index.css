@@ -270,10 +270,9 @@ nav .container a {
   box-sizing: border-box;
   margin-bottom: 2rem;
 }
-#about-us-main div .dev-info {
+#about-us-main div .dev-name {
   font-weight: bold;
   padding-right: 1rem;
-  content: ":";
 }
 @media (max-width: 500px) {
   #about-us-main div {
