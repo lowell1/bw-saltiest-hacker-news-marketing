@@ -269,15 +269,21 @@ nav .container a {
   padding: 1rem;
   box-sizing: border-box;
   margin-bottom: 2rem;
+  font-size: 1.5rem;
 }
 #about-us-main div .dev-name {
   font-weight: bold;
   font-size: 1.5rem;
   padding-right: 1rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #about-us-main {
     width: 75%;
+  }
+}
+@media (max-width: 500px) {
+  #about-us-main {
+    width: 90%;
   }
   #about-us-main div {
     width: 100%;

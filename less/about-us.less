@@ -21,6 +21,7 @@
         padding: 1rem;
         box-sizing: border-box;
         margin-bottom: 2rem;
+        font-size: 1.5rem;
         
         .dev-name {
             font-weight: bold;
@@ -28,6 +29,11 @@
             padding-right: 1rem;
         }
     }
+
+    @media(@tablet) {
+        width: 75%;
+    }
+
     @media(@mobile) {
         div {
             width: 100%;
@@ -39,6 +45,6 @@
             text-align: center;
         }
 
-        width: 75%;
+        width: 90%;
     }
 }
