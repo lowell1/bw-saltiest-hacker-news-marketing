@@ -5,13 +5,31 @@
     width: 75%;
     justify-content: space-between;
 
+    h1 {
+        @media(@mobile) {
+            margin-bottom: 5rem;
+        }
+    }
+    
     h1, h2 {
         width: 100%;
     }
-
+    
     h2 {
         // margin-top: 2rem;
         margin-bottom: 1rem;
+
+        @media(@mobile) {
+            text-align: center;
+        }
+    }
+
+    @media(@tablet) {
+        width: 85%;
+    }
+
+    @media (@mobile) {
+        width: 95%;
     }
 
     div {
@@ -36,7 +54,7 @@
             //     text-align: center;
             // }
     
-            width: 90%;
+            width: 100%;
         }
 
         p {

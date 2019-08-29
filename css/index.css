@@ -255,12 +255,32 @@ nav .container a {
   width: 75%;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  #about-us-main h1 {
+    margin-bottom: 5rem;
+  }
+}
 #about-us-main h1,
 #about-us-main h2 {
   width: 100%;
 }
 #about-us-main h2 {
   margin-bottom: 1rem;
+}
+@media (max-width: 500px) {
+  #about-us-main h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  #about-us-main {
+    width: 85%;
+  }
+}
+@media (max-width: 500px) {
+  #about-us-main {
+    width: 95%;
+  }
 }
 #about-us-main div {
   width: 48%;
@@ -275,7 +295,7 @@ nav .container a {
 }
 @media (max-width: 500px) {
   #about-us-main div {
-    width: 90%;
+    width: 100%;
   }
 }
 #about-us-main div p {
